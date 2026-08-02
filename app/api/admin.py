@@ -3,14 +3,28 @@ Admin API — chỉ dành cho role = admin.
 """
 
 from fastapi import APIRouter, HTTPException, Depends
+from fastapi.responses import JSONResponse
 
 from app.repositories import user_repository, prescription_repository, reminder_repository
 from app.database import json_store
 from app.core.security import require_admin
+from app.services.auth_service import hash_password
 
 router = APIRouter(prefix="/api/v1/admin", tags=["Admin"])
 
 NOTIF_COLLECTION = "notifications"
+
+
+def _options_response() -> JSONResponse:
+    return JSONResponse(
+        status_code=200,
+        content={"status": "ok"},
+        headers={
+            "Allow": "POST, OPTIONS",
+            "Access-Control-Allow-Methods": "POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Authorization, Content-Type",
+        },
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -100,6 +114,66 @@ async def delete_user(user_id: str, current_admin: dict = Depends(require_admin)
 
     user_repository.delete(user_id)
     return {"status": "success", "message": f"Đã xóa user {user_id} và toàn bộ dữ liệu liên quan"}
+
+
+@router.options("/users/create-admin")
+async def options_create_admin_v1():
+    return _options_response()
+
+
+@router.options("/create-admin")
+async def options_create_admin_v2():
+    return _options_response()
+
+
+@router.post("/users/create-admin")
+async def create_admin_account(body: dict, _: dict = Depends(require_admin)):
+    """Tạo tài khoản admin mới."""
+    username = body.get("username")
+    email = body.get("email")
+    password = body.get("password")
+    full_name = body.get("full_name")
+
+    if not username or not email or not password:
+        raise HTTPException(status_code=400, detail="Cần username, email và password")
+    if user_repository.get_by_username(username):
+        raise HTTPException(status_code=400, detail="Username đã tồn tại")
+    if user_repository.get_by_email(email):
+        raise HTTPException(status_code=400, detail="Email đã được sử dụng")
+
+    hashed = hash_password(password)
+    doc = user_repository.create(
+        username=username,
+        email=email,
+        hashed_password=hashed,
+        full_name=full_name or username,
+        role="admin",
+    )
+    safe = {k: v for k, v in doc.items() if k != "hashed_password"}
+    return {"status": "success", "user": safe}
+
+
+@router.post("/create-admin")
+async def create_admin_account_v2(body: dict, _: dict = Depends(require_admin)):
+    """Đường dẫn thay thế để UI gọi dễ dàng hơn."""
+    return await create_admin_account(body, _)
+
+
+@router.put("/users/{user_id}/reset-password")
+async def reset_user_password(user_id: str, body: dict, _: dict = Depends(require_admin)):
+    """Đặt lại mật khẩu cho user/admin."""
+    new_password = body.get("password")
+    if not new_password:
+        raise HTTPException(status_code=400, detail="Cần cung cấp password mới")
+
+    user = user_repository.get_by_id(user_id)
+    if user is None:
+        raise HTTPException(status_code=404, detail="Không tìm thấy user")
+
+    hashed = hash_password(new_password)
+    updated = user_repository.update(user_id, {"hashed_password": hashed})
+    safe = {k: v for k, v in updated.items() if k != "hashed_password"}
+    return {"status": "success", "message": "Đã reset mật khẩu", "user": safe}
 
 
 # ---------------------------------------------------------------------------

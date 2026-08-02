@@ -212,6 +212,27 @@ class TestAdminDeleteUser:
 
 
 # ---------------------------------------------------------------------------
+# Create admin
+# ---------------------------------------------------------------------------
+
+class TestAdminCreateAdmin:
+    def test_admin_can_create_new_admin_account(self, client, admin_token):
+        r = client.post(
+            "/api/v1/admin/users/create-admin",
+            json={
+                "username": "newadmin",
+                "email": "newadmin@example.com",
+                "password": "secret123",
+                "full_name": "New Admin",
+            },
+            headers=auth_headers(admin_token),
+        )
+        assert r.status_code == 200
+        assert r.json()["status"] == "success"
+        assert r.json()["user"]["role"] == "admin"
+
+
+# ---------------------------------------------------------------------------
 # Admin: list all prescriptions
 # ---------------------------------------------------------------------------
 
