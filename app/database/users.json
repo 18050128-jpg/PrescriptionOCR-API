@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "_id": "ff856a15-974a-4927-9a5d-f456b95a0779",
+      "created_at": "2026-08-02T15:56:34",
+      "username": "namea",
+      "email": "user@example.com",
+      "hashed_password": "$2b$12$zzEBwgxL1WtwOJjbuUaPkOTeGvpEXppKx3w3t7rPxw0PJVDjjOolK",
+      "full_name": "string",
+      "role": "admin",
+      "is_active": true
+    },
+    {
+      "_id": "5caff645-9ae3-42c9-95ed-e6a6858addad",
+      "created_at": "2026-08-02T16:00:08",
+      "username": "admincheck2",
+      "email": "admincheck2@example.com",
+      "hashed_password": "$2b$12$3VcuRyhx/tNmzMVnKFtReewVLNzDP8H9CNQjEpm8orQbVmiPjbinG",
+      "full_name": "Admin Check",
+      "role": "user",
+      "is_active": true
+    },
+    {
+      "_id": "ff8fd14c-1923-485b-8205-24acf3d8ce11",
+      "created_at": "2026-08-02T16:00:08",
+      "username": "usercheck2",
+      "email": "usercheck2@example.com",
+      "hashed_password": "$2b$12$yChqtKEQDJxxrEkilhSEiO8NQd8DFdOx31G3ALHrZhwa9whfR0VDi",
+      "full_name": "User Check",
+      "role": "user",
+      "is_active": true
+    },
+    {
+      "_id": "462810dd-013a-4bc5-94dc-c0e57cbd0097",
+      "created_at": "2026-08-02T16:02:39",
+      "username": "official_f39bb7f0",
+      "email": "official_f39bb7f0@test.com",
+      "hashed_password": "$2b$12$eKcF6QlWjiKTwsFgi32.ZeJ6nrRRkUM0rxGVLMtzxaHDTJqGo/azO",
+      "full_name": "Official Flow",
+      "role": "user",
+      "is_active": true
+    }
+  ]
+}

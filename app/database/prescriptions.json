@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "_id": "01c943b6-321b-4c36-b6b5-46954a5a9657",
+      "created_at": "2026-08-01T16:45:20",
+      "filename": "6c997c23-4450-4f16-bce5-28be4e435b34.jpg",
+      "image_path": "app/uploads\\6c997c23-4450-4f16-bce5-28be4e435b34.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        }
+      ],
+      "prescription_type": "unknown"
+    }
+  ]
+}
