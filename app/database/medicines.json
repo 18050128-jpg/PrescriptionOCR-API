@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "_id": "b9e5be98-a90c-42e5-b180-eff804ccbe3c",
+      "name": "PROPRANOLOL",
+      "dosage": "40 MG",
+      "unit": "viên",
+      "quantity_number": 122,
+      "quantity_raw": "122 viên"
+    },
+    {
+      "_id": "cdfd2fde-31fd-4aae-897d-1e815b9b0e21",
+      "name": "AUGMENTIN",
+      "dosage": "320 MG",
+      "unit": "viên",
+      "quantity_number": 24,
+      "quantity_raw": "24 viên"
+    },
+    {
+      "_id": "09ce68a2-7b49-44f8-a7a0-9455fa90811f",
+      "name": "NOVOXIM-500",
+      "dosage": "0,5 G",
+      "unit": "viên",
+      "quantity_number": 40,
+      "quantity_raw": "40 viên"
+    },
+    {
+      "_id": "e19b82d0-c0a5-4827-b92b-ea91d72c3a31",
+      "name": "KAVASDIN",
+      "dosage": "55 MG",
+      "unit": "viên",
+      "quantity_number": 602,
+      "quantity_raw": "602 viên"
+    }
+  ]
+}

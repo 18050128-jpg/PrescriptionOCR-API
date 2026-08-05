@@ -1,0 +1,14 @@
+﻿# Runtime dependencies
+fastapi==0.139.2
+uvicorn==0.51.0
+pydantic==2.13.4
+python-multipart==0.0.32
+python-jose==3.5.0
+bcrypt==5.0.0
+APScheduler==3.11.0
+pytz==2026.2
+paddleocr==3.7.0
+paddlepaddle
+email_validator==2.2.0
+# Test-only dependencies
+pytest==8.4.2

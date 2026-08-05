@@ -1,0 +1,1148 @@
+{
+  "records": [
+    {
+      "_id": "9c87a718-bb2d-486f-898b-17b2e21f90be",
+      "created_at": "2026-08-03T09:34:16",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "317021af-743f-430f-a704-1f2fca65a74b.jpg",
+      "image_path": "app/uploads\\317021af-743f-430f-a704-1f2fca65a74b.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        }
+      ],
+      "prescription_type": "unknown"
+    },
+    {
+      "_id": "7e334c17-e67c-44c7-a950-a047c80975b9",
+      "created_at": "2026-08-03T09:45:13",
+      "user_id": "e7900bf9-32cb-4632-b0c8-d3fa821f763b",
+      "filename": "09ae458f-b043-4e4d-984e-b9029394246a.jpg",
+      "image_path": "app/uploads\\09ae458f-b043-4e4d-984e-b9029394246a.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói"
+        }
+      ],
+      "prescription_type": "unknown"
+    },
+    {
+      "_id": "26ba4dc3-8f79-4a7c-99dc-4b27bf0fc8cc",
+      "created_at": "2026-08-03T09:57:20",
+      "user_id": "e7900bf9-32cb-4632-b0c8-d3fa821f763b",
+      "filename": "1e4c94ce-badc-4fb2-b541-f3a9604c3086.jpg",
+      "image_path": "app/uploads\\1e4c94ce-badc-4fb2-b541-f3a9604c3086.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": []
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": []
+        }
+      ],
+      "prescription_type": "unknown"
+    },
+    {
+      "_id": "9b979b61-a764-46c6-8b98-ee79ce4acace",
+      "created_at": "2026-08-05T05:25:07",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "9bb915e8-9ade-4b14-af3c-64f5ee669c22.jpg",
+      "image_path": "app/uploads\\9bb915e8-9ade-4b14-af3c-64f5ee669c22.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "unknown"
+    },
+    {
+      "_id": "5e27bbfe-37c0-4253-aa17-0325a135975f",
+      "created_at": "2026-08-05T05:25:44",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "eb5b503b-0fca-4162-a963-598f68b21a92.jpg",
+      "image_path": "app/uploads\\eb5b503b-0fca-4162-a963-598f68b21a92.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "unknown"
+    },
+    {
+      "_id": "8414d3c7-d3cd-4053-bf7c-64baea848723",
+      "created_at": "2026-08-05T05:26:55",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "295f3b26-d447-4830-8920-7ecfff91fdbb.jpg",
+      "image_path": "app/uploads\\295f3b26-d447-4830-8920-7ecfff91fdbb.jpg",
+      "hospital": "PH NG KH M NOI BS.CKI DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "handwritten"
+    },
+    {
+      "_id": "385fc2ec-4a08-4be2-a192-2bc124c2ac80",
+      "created_at": "2026-08-05T05:29:38",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "373df9cb-35ec-4195-83b3-55c1d99b9e17.jpg",
+      "image_path": "app/uploads\\373df9cb-35ec-4195-83b3-55c1d99b9e17.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "63cccf59-9a35-4f19-8a84-42150d563040",
+      "created_at": "2026-08-05T05:32:14",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "c36d2259-0338-4b41-af8d-f761df9131b6.png",
+      "image_path": "app/uploads\\c36d2259-0338-4b41-af8d-f761df9131b6.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông :  Sáng 2 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông :  Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông :  Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "cab11d2d-a833-4b8d-9668-55e3b2571efb",
+      "created_at": "2026-08-05T05:41:55",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "0c7a979e-0916-4250-ad1e-da46d5c1c370.png",
+      "image_path": "app/uploads\\0c7a979e-0916-4250-ad1e-da46d5c1c370.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "f5a586d8-a1f1-4c39-a376-142e40965e92",
+      "created_at": "2026-08-05T05:48:02",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "5947be60-781c-42d6-9379-11539643657b.png",
+      "image_path": "app/uploads\\5947be60-781c-42d6-9379-11539643657b.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "c61be898-26ac-4077-8dbf-906f78abf591",
+      "created_at": "2026-08-05T05:50:52",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "27702eca-b866-46cb-8fd1-7d8e24b2c354.jpg",
+      "image_path": "app/uploads\\27702eca-b866-46cb-8fd1-7d8e24b2c354.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "a8acc15b-7628-4456-ba7d-1aef686b2376",
+      "created_at": "2026-08-05T05:51:27",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "a06dad3d-19a4-4c44-b862-6676297432fe.png",
+      "image_path": "app/uploads\\a06dad3d-19a4-4c44-b862-6676297432fe.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "8dc96ffb-db6a-471a-9e89-a5599fb50e32",
+      "created_at": "2026-08-05T06:07:52",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "df43d363-6e48-4490-a970-6207f8f24ead.png",
+      "image_path": "app/uploads\\df43d363-6e48-4490-a970-6207f8f24ead.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên Chiu 2 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên Chiu 1 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "4a776f8e-2301-4f92-868c-21b1bcac5e5d",
+      "created_at": "2026-08-05T06:09:53",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "a65eb0d9-8920-453a-8100-8edcddead0a5.jpg",
+      "image_path": "app/uploads\\a65eb0d9-8920-453a-8100-8edcddead0a5.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "7ffe5b23-f3b0-4a40-84c1-a92481e007df",
+      "created_at": "2026-08-05T06:14:59",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "52811a49-8928-4035-b37d-388e31a5b0bd.jpg",
+      "image_path": "app/uploads\\52811a49-8928-4035-b37d-388e31a5b0bd.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "59aeb41d-2b47-43b9-8e0b-6ce26925143a",
+      "created_at": "2026-08-05T06:15:13",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "0095e60f-7d02-4c21-9dfd-cec9a6083517.jpg",
+      "image_path": "app/uploads\\0095e60f-7d02-4c21-9dfd-cec9a6083517.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "b89944ca-96a6-4012-93e1-0d960d358020",
+      "created_at": "2026-08-05T06:21:29",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "8f16cf5c-98c7-414b-a0b9-9387e0e60056.png",
+      "image_path": "app/uploads\\8f16cf5c-98c7-414b-a0b9-9387e0e60056.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên Chiu 2 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên Chiu 1 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "2b58a3af-38e6-464d-a2de-eff8921b42fa",
+      "created_at": "2026-08-05T06:32:31",
+      "user_id": "1ea6d408-2b0c-4d6b-bfa8-ebe6e6265817",
+      "filename": "cfded4fd-e9a2-4fbd-8cc1-e45eca65cf38.jpg",
+      "image_path": "app/uploads\\cfded4fd-e9a2-4fbd-8cc1-e45eca65cf38.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "9246c67a-ba97-4a07-9fc5-a822627315a3",
+      "created_at": "2026-08-05T06:39:27",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "72614ad6-c82f-40f8-8d9b-447729afb1e9.png",
+      "image_path": "app/uploads\\72614ad6-c82f-40f8-8d9b-447729afb1e9.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên Chiu 2 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên Chiu 1 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ]
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ]
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "3f7c48f7-6a2d-4180-8b7b-036c032dba73",
+      "created_at": "2026-08-05T07:08:42",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "61116050-9a04-4ded-8870-6768f5b1d9ed.jpg",
+      "image_path": "app/uploads\\61116050-9a04-4ded-8870-6768f5b1d9ed.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 Gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ],
+          "remaining": "03 viên"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 viên"
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "0cecda68-757d-490d-a671-2157de32874f",
+      "created_at": "2026-08-05T07:09:33",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "3d813d42-6feb-4203-8e37-4ee2a43019d8.jpg",
+      "image_path": "app/uploads\\3d813d42-6feb-4203-8e37-4ee2a43019d8.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 Gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ],
+          "remaining": "03 viên"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 viên"
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "18248c4c-6901-42e8-ae1e-cdcdb83f83be",
+      "created_at": "2026-08-05T07:10:14",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "c73d6cfb-4baa-422a-b2bd-791102ed6cc9.jpg",
+      "image_path": "app/uploads\\c73d6cfb-4baa-422a-b2bd-791102ed6cc9.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 Gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ],
+          "remaining": "03 viên"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 viên"
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "01a173d0-d981-407c-b1d7-1022f38daef8",
+      "created_at": "2026-08-05T07:10:57",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "12ee0936-6fef-4126-a3a3-e6e06d679570.jpg",
+      "image_path": "app/uploads\\12ee0936-6fef-4126-a3a3-e6e06d679570.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 Gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ],
+          "remaining": "03 viên"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 viên"
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "db362ef6-4bae-4a63-ad7f-97fdb916f587",
+      "created_at": "2026-08-05T07:15:08",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "f0f2f2bf-012d-4968-b985-a44c81f5fbd7.jpg",
+      "image_path": "app/uploads\\f0f2f2bf-012d-4968-b985-a44c81f5fbd7.jpg",
+      "hospital": "PHONG KHAM NOI BS. DINH CHI",
+      "patient_name": null,
+      "doctor": "BS. Chi Đinh",
+      "diagnosis": null,
+      "date": "16/01/2024",
+      "medicines": [
+        {
+          "name": "ACEMUC",
+          "dosage": "100 MG",
+          "quantity": "06 Gói",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 Gói"
+        },
+        {
+          "name": "PROPRANOLOL",
+          "dosage": "40 MG",
+          "quantity": "03 viên",
+          "usage": "Ngày 1/2v x 2 làn",
+          "reminder_times": [
+            "08:00",
+            "20:00"
+          ],
+          "remaining": "03 viên"
+        },
+        {
+          "name": "AUGMENTIN",
+          "dosage": "320 MG",
+          "quantity": "06 viên",
+          "usage": "sáng 1 gói - chièu 1 gói",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "06 viên"
+        }
+      ],
+      "prescription_type": "không có bảo hiểm"
+    },
+    {
+      "_id": "d2847066-a474-44d5-8f04-f66c12d6ed1e",
+      "created_at": "2026-08-05T07:15:37",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "6a764fb5-70fa-437d-a232-64fd47b489dc.png",
+      "image_path": "app/uploads\\6a764fb5-70fa-437d-a232-64fd47b489dc.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên Chiu 2 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "20 viên"
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên Chiu 1 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "10 viên"
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ],
+          "remaining": "30 viên"
+        }
+      ],
+      "prescription_type": "bhyt"
+    },
+    {
+      "_id": "4c6561b8-f6c1-4c9b-9386-57a6839ee58f",
+      "created_at": "2026-08-05T07:15:54",
+      "user_id": "e8e4c654-42f0-45e4-a143-346464fb039f",
+      "filename": "7cf32902-cd38-41da-a1a8-f0e765ef2a13.png",
+      "image_path": "app/uploads\\7cf32902-cd38-41da-a1a8-f0e765ef2a13.png",
+      "hospital": "1/1",
+      "patient_name": null,
+      "doctor": "BS. TRÀN THI THOAN",
+      "diagnosis": null,
+      "date": "01/10/2019",
+      "medicines": [
+        {
+          "name": "NOVOXIM-500",
+          "dosage": "0,5 G",
+          "quantity": "20 viên",
+          "usage": "Uông Sáng 2 viên Chiu 2 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "20 viên"
+        },
+        {
+          "name": "MYPARA 500",
+          "dosage": "500 MG",
+          "quantity": "10 viên",
+          "usage": "Uông Sáng 1 viên Chiu 1 viên",
+          "reminder_times": [
+            "08:00",
+            "14:00"
+          ],
+          "remaining": "10 viên"
+        },
+        {
+          "name": "KAVASDIN",
+          "dosage": "55 MG",
+          "quantity": "30 viên",
+          "usage": "Uông Sáng 1 viên",
+          "reminder_times": [
+            "08:00"
+          ],
+          "remaining": "30 viên"
+        }
+      ],
+      "prescription_type": "bhyt"
+    }
+  ]
+}
